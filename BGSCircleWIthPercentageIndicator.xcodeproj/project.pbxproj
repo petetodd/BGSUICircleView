@@ -15,6 +15,7 @@
 		D00A8E5D1AACA45C00D92B14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00A8E5C1AACA45C00D92B14 /* Images.xcassets */; };
 		D00A8E601AACA45C00D92B14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00A8E5E1AACA45C00D92B14 /* LaunchScreen.xib */; };
 		D00A8E6C1AACA45C00D92B14 /* BGSCircleWIthPercentageIndicatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D00A8E6B1AACA45C00D92B14 /* BGSCircleWIthPercentageIndicatorTests.m */; };
+		D00A8E781AACA57200D92B14 /* BGSUICircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D00A8E771AACA57200D92B14 /* BGSUICircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		D00A8E651AACA45C00D92B14 /* BGSCircleWIthPercentageIndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BGSCircleWIthPercentageIndicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00A8E6A1AACA45C00D92B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D00A8E6B1AACA45C00D92B14 /* BGSCircleWIthPercentageIndicatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGSCircleWIthPercentageIndicatorTests.m; sourceTree = "<group>"; };
+		D00A8E761AACA57200D92B14 /* BGSUICircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BGSUICircleView.h; path = CircleView/BGSUICircleView.h; sourceTree = "<group>"; };
+		D00A8E771AACA57200D92B14 /* BGSUICircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BGSUICircleView.m; path = CircleView/BGSUICircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		D00A8E4B1AACA45C00D92B14 /* BGSCircleWIthPercentageIndicator */ = {
 			isa = PBXGroup;
 			children = (
+				D00A8E751AACA52000D92B14 /* CircleView */,
 				D00A8E501AACA45C00D92B14 /* AppDelegate.h */,
 				D00A8E511AACA45C00D92B14 /* AppDelegate.m */,
 				D00A8E561AACA45C00D92B14 /* ViewController.h */,
@@ -120,6 +124,15 @@
 				D00A8E6A1AACA45C00D92B14 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D00A8E751AACA52000D92B14 /* CircleView */ = {
+			isa = PBXGroup;
+			children = (
+				D00A8E761AACA57200D92B14 /* BGSUICircleView.h */,
+				D00A8E771AACA57200D92B14 /* BGSUICircleView.m */,
+			);
+			name = CircleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +237,7 @@
 			files = (
 				D00A8E551AACA45C00D92B14 /* BGSCircleWIthPercentageIndicator.xcdatamodeld in Sources */,
 				D00A8E521AACA45C00D92B14 /* AppDelegate.m in Sources */,
+				D00A8E781AACA57200D92B14 /* BGSUICircleView.m in Sources */,
 				D00A8E581AACA45C00D92B14 /* ViewController.m in Sources */,
 				D00A8E4F1AACA45C00D92B14 /* main.m in Sources */,
 			);
