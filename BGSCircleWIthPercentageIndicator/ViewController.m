@@ -7,9 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "BGSUICircleView.h"
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet BGSUICircleView *circleView;
 @end
 
 @implementation ViewController
@@ -17,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self.circleView setPercentageComplete:[NSNumber numberWithFloat:0.356]];
 }
 
 - (void)didReceiveMemoryWarning {

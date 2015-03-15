@@ -14,5 +14,13 @@
 @property (nonatomic, strong) UIColor *fillColor;
 @property (nonatomic, strong) NSNumber *lineWidth;
 
+// Line color of indicator arc
+@property (nonatomic, strong) UIColor *indicatorArcColor;
+@property (nonatomic, strong) NSNumber *indicatorArcWidth;
+
+
+// Percentage Complete
+@property (nonatomic, strong) NSNumber *percentageComplete;
+
 
 @end
